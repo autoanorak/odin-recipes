@@ -21,7 +21,7 @@ h1, h3, p, ul, ol {
 
 /* Container */
 
-.flex-container {
+.page-container {
     display: flex;
     flex-direction: column;
 }
