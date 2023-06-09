@@ -1,32 +1,27 @@
 /* Fonts */
-
 /* Regular */
 @font-face {
-    font-family: "Roboto";
-    src: url('./fonts/roboto/Roboto-Light.ttf') format('truetype');
-
     font-family: "Ubuntu";
     src: url('./fonts/ubuntu/Ubuntu-Light.ttf') format('truetype');
+
     font-weight: normal;
+    font-style: normal;
 }
 
 /* Bold */
 @font-face {
-    font-family: "Roboto";
-    src: url('./fonts/roboto/Roboto-Bold.ttf') format('truetype');
-
     font-family: "Ubuntu";
     src: url('./fonts/ubuntu/Ubuntu-Bold.ttf') format('truetype');
+    
     font-weight: bold;
+    font-style: normal;
 }
 
-/* Italics */
+/* Italic */
 @font-face {
-    font-family: "Roboto";
-    src: url('./fonts/roboto/Roboto-Italic.ttf') format('truetype');
-
     font-family: "Ubuntu";
     src: url('./fonts/ubuntu/Ubuntu-Italic.ttf') format('truetype');
+  
     font-weight: normal;
     font-style: italic;
 }
@@ -38,7 +33,9 @@ html {
     box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*, 
+*::before, 
+*::after {
     box-sizing: inherit;
 }
 
@@ -136,5 +133,3 @@ footer a {
         padding-left: 0px;
     }
 }
-
-
